@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #9b620e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://img.freepik.com/premium-photo/blurred-buddhist-temple-interior-with-no-people-classical-interior-light-colors-background-wallpaper_935074-28874.jpg');
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+    color:black;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 50px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Festivals Section */
+.festivals {
+    padding: 50px;
+}
+
+.festivals ul {
+    list-style-type: none;
+}
+
+.festivals ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* Styling for the Visitor Statistics Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #visitor-statistics {
+    padding: 50px;
+    margin-top: 50px;
+  }
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact label {
+    font-size: 18px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #9b620e;
+    color: white;
+    border: none;
+}
+
+.contact button:hover {
+    background-color: #9b620e;
+}
+
+footer {
+    background-color: #9b620e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
